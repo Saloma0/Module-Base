@@ -27,7 +27,7 @@ void MainThread()
 			SharedVariables::ExecutionRequests.clear();
 
             TaskScheduler::SetupExploit();
-            TaskScheduler::RequestExecution("print(\"Nam Injected\")");
+            TaskScheduler::RequestExecution("print(\"Injected!\")");
         }
 
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
