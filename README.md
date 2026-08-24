@@ -19,3 +19,9 @@ Download the required dependencies here:
 Place the downloaded files inside:
 
 `YuB-X-Module/Dependencies`
+
+### Updates:
+
+Every Roblox update may require updating the **Offsets, Encs and Flags** to keep the module compatible with the latest version.
+
+I’ll release updates whenever possible after new Roblox versions are released and the required changes have been made.
