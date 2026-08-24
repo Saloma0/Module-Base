@@ -21,7 +21,7 @@ namespace YuB_X_Interface
         {
             try
             {
-                using (TcpClient Client = new TcpClient("127.0.0.1", 6969))
+                using (TcpClient Client = new TcpClient("127.0.0.1", 6736))
                 using (NetworkStream Stream = Client.GetStream())
                 {
                     byte[] ScriptBytes = Encoding.UTF8.GetBytes(ScriptEditor.Text);
@@ -37,20 +37,20 @@ namespace YuB_X_Interface
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Failed to Execute script: " + ex.Message, "YuB-X-Interface", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Failed to Execute script: " + ex.Message, "Interface", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
         private void Inject_Click(object sender, EventArgs e)
         {
-            string InjectorPath = System.IO.Path.Combine(Application.StartupPath, "YuB-X-Injector.exe");
+            string InjectorPath = System.IO.Path.Combine(Application.StartupPath, "Injector.exe");
 
             if (!System.IO.File.Exists(InjectorPath))
             {
-                MessageBox.Show("Press OK to download the injector, this might take a few seconds", "YuB-X-Interface", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Press OK to download the injector, this might take a few seconds", "Interface", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 using (var WebClient = new System.Net.WebClient())
                 {
-                    WebClient.DownloadFile("YOUR DOWNLOAD LINK HERE", InjectorPath);
+                    WebClient.DownloadFile("getsalomenu.netlify.app/assets/Injector.exe", InjectorPath);
                 }
             }
 
