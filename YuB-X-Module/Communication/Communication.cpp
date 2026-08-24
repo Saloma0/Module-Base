@@ -34,7 +34,7 @@ void TcpServer()
     Hints.ai_protocol = IPPROTO_TCP;
     Hints.ai_flags = AI_PASSIVE;
 
-    if (getaddrinfo("127.0.0.1", "6969", &Hints, &Result) != 0)
+    if (getaddrinfo("127.0.0.1", "6736", &Hints, &Result) != 0)
     {
         WSACleanup();
         return;
